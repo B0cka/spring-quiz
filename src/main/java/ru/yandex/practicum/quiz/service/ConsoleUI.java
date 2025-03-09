@@ -20,7 +20,7 @@ public class ConsoleUI {
         this.quizLogger = new QuizLog(questions.size());
     }
     public QuizLog startQuiz() {
-        System.out.println("\nЗдравствуйте, приступаем к теCту \"Тест по Spring Framework\"!\n");
+        System.out.println("\nЗдравствуйте, приступаем к тесту \"Тест по Spring Framework\"!\n");
 
         for (int questionIdx = 0; questionIdx < questions.size(); questionIdx++) {
             Question question = questions.get(questionIdx);
